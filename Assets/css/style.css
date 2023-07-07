@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: slategray;
+}
+
+header {
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:aliceblue;
+    color:olive;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float:right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.ShamarHeadPhoto {
+    height:800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image:url("images/HeadPhoto.jpeg");
+    background-size: cover;
+    background-position: center;
+}
