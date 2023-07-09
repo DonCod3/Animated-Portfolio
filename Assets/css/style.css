@@ -9,15 +9,23 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 0px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color:aliceblue;
-    color:olive;
+    background-color:rgb(27, 77, 122);
+    color:rgb(214, 214, 214);
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    padding: 5px;
+    text-shadow: 4px 4px 4px darkred
 }
 
 nav {
-    padding-top: 15px;
-    margin-right: 20px;
+    padding-right: 10px;
+    margin-top: 25px;
+    margin-right: 5px;
     float:right;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
@@ -25,6 +33,19 @@ nav {
 
 nav ul {
     list-style-type: none;
+}
+
+img {
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 nav ul li {
@@ -41,11 +62,20 @@ p {
     font-size: 16px;
 }
 
-.ShamarHeadPhoto {
-    height:800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image:url("images/HeadPhoto.jpeg");
-    background-size: cover;
-    background-position: center;
+
+main h2 {
+    float: left;
+    padding-left: 70px;
+    padding: 100px;
+    border-right: 4mm ridge;
+    display:;
+}
+
+main p {
+    display: inline;
+    padding: 100px;
+}
+main nav {
+    display: inline
+    underline;
 }
