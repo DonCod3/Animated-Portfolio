@@ -22,6 +22,30 @@ header h1 {
     text-shadow: 4px 4px 4px darkred
 }
 
+.hero-banner {
+    display:flex;
+    justify-content:flex-end;
+    padding: 2% 6%;
+    background: rgb(66, 88, 120);
+    background-position: center;
+    background-size: cover;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.hero-banner div {
+flex:0 0 90%;
+}
+
+.hero-banner h2 {
+    padding: 5px 10px;
+    font-size: 3rem;
+    line-height: 1.2;
+    display: inline;
+    margin: 0;
+    margin-top: 50%;
+    
+}
 nav {
     padding-right: 10px;
     margin-top: 25px;
@@ -63,18 +87,66 @@ p {
 }
 
 
-main h2 {
+/* main h2 {
     float: left;
     padding-left: 70px;
     padding: 100px;
     border-right: 4mm ridge;
-    display:;
+    displ
+} */
+
+
+main {
+    /* width:26%; */
+    margin-top: 20px;
+    margin-bottom: 45px;
+
+    float:left;
+    background-color:#fff;
+    border:1px solid #222;
+    box-shadow:0 0 5px #000;
+    font-family: verdana;
+    font-size:12px;
+    color: #000;
 }
 
-main p {
+main section h2 {
+    border-right: 2px solid black;
+    padding-right: 10px;
+}
+
+
+
+.page-wrapper {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.page-section {
+    margin: 25px 0;
+    /* padding: 10px 0; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.page-section >h2{
+    flex:00 20%;
+    text-align: right;
+    padding-right: 15px;
+    line-height: 1.1;
+}
+
+main section div {
     display: inline;
     padding: 100px;
+    margin-left: 12px;
 }
+
 main nav {
     display: inline
     underline;
