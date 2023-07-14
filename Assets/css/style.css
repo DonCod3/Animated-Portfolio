@@ -38,6 +38,10 @@ header nav {
     text-align: right;
 }
 
+header nav ul {
+    list-style-type: none;
+}
+
 header nav ul li {
     display: inline;
     margin-left: 40px;
@@ -62,6 +66,29 @@ main {
     height: 100%;
     width: 100%;
     display: inline-block;
+}
+
+main article {
+    color: rgb(4, 1, 1);
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+main article ul {
+    list-style-type: none;
+    width: 75%;
+    padding: 5%;
+    font-size: large;
+}
+
+main article li {
+    display: flex;
+    padding-top: 15px;
+    padding-right: 10%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .workimagecontainer {
@@ -94,54 +121,9 @@ flex:0 0 90%;
     margin-top: 50%;
     
 }
-/* nav { replaced woth header nav above 
-    padding-right: 10px;
-    margin-top: 25px;
-    margin-right: 5px;
-    float:right;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-/* } 
-
-nav ul {
-    list-style-type: none;
-}
-
-img {
-    height: 500px;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
-a:link {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-
-p {
-    font-size: 16px;
-}
-
-
-/* main h2 {
-    float: left;
-    padding-left: 70px;
-    padding: 100px;
-    border-right: 4mm ridge;
-    displ
-} */
 
 
 main {
-    /* width:26%; */
     margin-top: 20px;
     margin-bottom: 45px;
 
@@ -191,7 +173,6 @@ main section div {
     margin-left: 12px;
 }
 
-main nav {
-    display: inline
-    underline;
+.nowrap {
+    white-space: nowrap;
 }
