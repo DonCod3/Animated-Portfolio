@@ -4,15 +4,15 @@
     margin: 0;
 }
 
-body {
+/* body {
     background-color: slategray;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-}
+} */
 
 header {
     padding: 0px;
-    background-color:rgb(51, 123, 191);
-    color:rgb(214, 214, 214);
+    background-color: rgb(51, 123, 191);
+    color: rgb(214, 214, 214);
 
     display: flex;
     justify-content: space-between;
@@ -23,7 +23,7 @@ header {
 }
 
 a {
-    color: antiquewhite;
+    color: rgb(17, 15, 11);
     text-decoration: none;
 }
 
@@ -48,17 +48,11 @@ header nav ul li {
     text-align: right;
 }
 
-.backgroundbox {
-    position:relative;
-}
-
-.backgroundimage {
-    height: 600px;
-    width: auto;
-    /* background-image: url(images/IMG_0039.jpg); */
-    background-size: 50%;
+.background-container {
     background-position: center;
-    z-index: 1;
+    max-height: auto;
+    max-width: 10px;
+    background-size: contain;
 }
 
 main {
@@ -97,8 +91,8 @@ main article li {
 }
 
 .body {
-    display:flex;
-    justify-content:flex-end;
+    display: flex;
+    justify-content: flex-end;
     padding: 2% 6%;
     background: rgb(66, 88, 120);
     background-position: center;
@@ -109,7 +103,7 @@ main article li {
 }
 
 .body div {
-flex:0 0 90%;
+    flex: 0 0 90%;
 }
 
 .body h2 {
@@ -119,7 +113,7 @@ flex:0 0 90%;
     display: inline;
     margin: 0;
     margin-top: 50%;
-    
+
 }
 
 
@@ -127,12 +121,12 @@ main {
     margin-top: 20px;
     margin-bottom: 45px;
 
-    float:left;
-    background-color:#fff;
-    border:1px solid #222;
-    box-shadow:0 0 5px #000;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #222;
+    box-shadow: 0 0 5px #000;
     font-family: verdana;
-    font-size:12px;
+    font-size: 12px;
     color: #000;
 }
 
@@ -147,17 +141,24 @@ main section h2 {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    color: #000;
 
 }
 
-.page-section h1 {
-    margin: 25px 0;
-    /* padding: 10px 0; */
+.imagecontainer img {
+    width: 100px; /* adjust the width as needed */
+    float: right;
+    margin-left: 10px; /* add some margin to separate the image from the text */
+}
+
+
+    /* padding: 10px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
     align-items: stretch;
     justify-content: space-between;
+    color: black
 }
 
 .page-section >h2{
@@ -176,3 +177,11 @@ main section div {
 .nowrap {
     white-space: nowrap;
 }
+
+.image-container {
+    position: relative; 
+    height: 10px;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+};
